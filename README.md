@@ -4,7 +4,7 @@
 ## Declaration
 
 ### python
-```python
+```py
 number: int = 10
 text: str = "Text"
 (first, second) = (1, 2)
@@ -22,7 +22,7 @@ let (first, second) = (1, 2);
 `Python` has mutable values by default, but in `rust`, we must specify that this variable is mutable using the `mut` keyword.
 
 ### python
-```python
+```py
 number: int = 10
 number += 1
 ```
@@ -34,7 +34,7 @@ number += 1;
 
 ## Common types
 
-```python
+```py
 number: int = 10
 string: str = "Text"
 boolean: bool = True
@@ -50,7 +50,7 @@ let tup: (i32, i32) = (10, 10);
 
 ## Functions
 
-```python
+```py
 def fib(n: int) -> int:
     if n < 2: 
         return n
@@ -68,14 +68,14 @@ fn fib(n: i32) -> i32 {
 
 ## if
 
-``` python
+```py
 if True:
     print("True")
 else:
     print("False")
 ```
 
-``` rust
+```rust
 if true {
     print!("True\n");
 }
@@ -86,19 +86,19 @@ else {
 
 ## For
 
-``` python
+```py
 for i in range(5, 10):
     print("In loop")
 ```
 
-``` rust
+```rust
 for i in 5..10 {
     print!("In loop")
 }
 ```
 
 or
-``` rust
+```rust
 for i in (std::ops::Range{start: 3, end:5}) {
     print!("Test\n");
 }
@@ -106,12 +106,12 @@ for i in (std::ops::Range{start: 3, end:5}) {
 
 ## While
 
-``` python
+```py
 while x < 10:
     x+=1
 ```
 
-``` rust
+```rust
 while x < 10 {
     x+=1;
 }
